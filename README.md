@@ -3,19 +3,27 @@
 MacOS 下 测试 k8s，通过简单的 hello-world 程序。
 
 1. 需要的软件
-1.1 Docker
-1.2 kubernetes（k8s， kubectl， minikube）
+
+    1.1 Docker
+    
+    1.2 kubernetes（k8s， kubectl， minikube）
 
 2. 需要的技术
-2.1 go
-2.2 html
-2.3 yaml
+
+    2.1 go
+    
+    2.2 html
+    
+    2.3 yaml
+    
+    2.4 shell
 
 ## Env build
 
 ### Docker
 
 1.1 安装 docekr `brew install --cask --appdir=/Applications docker`
+
 1.2 检查安装 `docker verison`
 
 打开启动器中的 docker app 程序，授权，然后运行。
