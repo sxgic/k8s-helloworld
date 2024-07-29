@@ -1,7 +1,5 @@
 # k8s-helloworld
 
-[k9s Kubernetes CLI To Manage Your Clusters In Style!](https://k9scli.io/)
-
 MacOS 下 测试 k8s，通过简单的 hello-world 程序。
 
 1. 需要的软件
@@ -109,4 +107,17 @@ Pull 别人已经创建的 image <https://hub.docker.com/r/gkpanshi/hello_html>�
 
 ```bash
 docker pull gkpanshi/hello_html:v0.1
+```
+
+## [k9s Kubernetes CLI To Manage Your Clusters In Style!](https://k9scli.io/)
+
+1. 本机目录 `~/.kube/config`
+2. 查看本机可以访问节点 `kubectl get pod --all-namespaces`
+
+### 常用命令
+```
+"?"：帮助
+"上、下"：选择 pod
+"/"：搜索 pod
+"l"：查看日志
 ```
