@@ -1,5 +1,7 @@
 # k8s-helloworld
 
+[k9s Kubernetes CLI To Manage Your Clusters In Style!](https://k9scli.io/)
+
 MacOS 下 测试 k8s，通过简单的 hello-world 程序。
 
 1. 需要的软件
